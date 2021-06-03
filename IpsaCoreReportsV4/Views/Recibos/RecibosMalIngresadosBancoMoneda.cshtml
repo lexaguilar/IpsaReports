@@ -1,0 +1,7 @@
+﻿
+
+@model IpsaCoreReportsV4.Reportes.xrRecibosConMonedaErronea
+
+@Html.DevExpress().WebDocumentViewer(settings => {
+    settings.Name = "WebDocumentViewer";
+}).Bind(Model).GetHtml()

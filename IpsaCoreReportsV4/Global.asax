@@ -1,0 +1,1 @@
+<%@ Application Codebehind="Global.asax.cs" Inherits="IpsaCoreReportsV4.MvcApplication" Language="C#" %>

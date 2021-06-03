@@ -1,0 +1,5 @@
+﻿@model IpsaCoreReportsV4.Reportes.StatusBankAccount
+
+@Html.DevExpress().WebDocumentViewer(settings => {
+    settings.Name = "WebDocumentViewer";
+}).Bind(Model).GetHtml()
